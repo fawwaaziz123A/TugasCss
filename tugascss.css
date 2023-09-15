@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 700px;
+    margin: 0px auto;
+    padding-top: 30px;
+    display: flex;
+}
+
+.gambar{
+    width: 46%;
+
+}
+
+.img-thumb{
+    width: 85%;
+}
+
+.card-wrapper{
+    width: 50%;
+}
+
+.card{
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: 2px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-top: 3px;
+}
+
+.logo{
+    width: 145px;
+    margin-top: 1px;
+}
+
+.form{
+    margin-top: 2px;
+    padding-top: 0px;
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid grey;
+}
+
+.btn{
+    background-color: #0095f6;
+    border: 0px solid transparent;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.login-with{
+    color: #01017a;
+    text-decoration: none;
+}
+
+.forgot{
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.sign{
+    color: #0095f6;
+    text-decoration: none;
+
+}
+
+.gambar-container{
+    display: flex;
+    justify-content: center;
+    margin: 0px 4px;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    width: 28cm;
+    margin-top: 2px;
+    left: 100px;
+    color: rgb(115, 115, 115);
+    line-height: 10px;
+}
+
+ul li {
+    cursor: pointer;
+    margin: 10px 5px;
+    font-size: 10px;
+    display: inline-flex;
+    list-style: none;
+    line-height: 3px;
+    margin-top: 1px;
+    padding-top: 1px;
+}
+select {
+    border: none;
+    color: rgb(115, 115, 115);
+    cursor: pointer;
+    outline: none;
+    font-size: 10px;
+}
